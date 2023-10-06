@@ -1,0 +1,129 @@
+.containermain {
+  width: 100%;
+  border: solid 1px;
+  /* height: 100%; */
+  /* height: 35%; */
+  height: 443px;
+}
+
+
+.container_2 {
+  width: 100%;
+  /* border: saddlebrown; */
+  border: solid 1px;
+  height: 82px;
+}
+
+.container_3 {
+  width: 100%;
+  /* border: saddlebrown; */
+  border: solid 1px;
+  height: 32px;
+}
+
+.container_4 {
+  width: 100%;
+  /* border: saddlebrown; */
+  border: solid 1px;
+  height: 82px;
+}
+
+
+
+.table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.row {
+  display: table-row;
+}
+
+.cell {
+  display: table-cell;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+/* Reduce the width of the Firstname column */
+.firstname {
+  width: 50px;
+  /* Adjust the width as needed */
+}
+
+/* .newdataenty{
+  width: 20%;
+  background-color: aqua;
+}
+.newdataentytwo{
+  width: 20%;
+  background-color: rgb(6, 7, 7);
+} */
+.amount {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newdataentytwo {
+  width: 158px;
+  z-index: 14;
+  height: 86px;
+  position: absolute;
+  border: 1px solid black;
+  margin-top: -33px;
+}
+
+.Main_Box_Section {
+  display: flex;
+  border: 2px solid black;
+  margin-top: 10px;
+}
+
+.Main_Box_Section .box1 {
+  width: 65%;
+  border-right: 1px solid black;
+}
+
+.Box1_sub_section {
+  display: flex;
+}
+
+.Box1_sub_section .First_section {
+  width: 50%;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.Box1_sub_section .section_section {
+  width: 50%;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.box2 {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+
+}
+
+.ColumanBox1 {
+  height: 34% !important;
+  border-bottom: 2px solid black;
+  display: flex;
+  flex-direction: row;
+
+}
+.ColumanBox1FrstSection{
+  width: 35%;
+  border-right: 2px solid black;
+}
+.ColumanBox1SecoundSection{
+  width: 65%;
+}
+
+.ColumanBox2 {
+  height: 66% !important;
+}
